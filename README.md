@@ -37,9 +37,9 @@ Additional options
 + *(Does not work well)* If you want to speed up video during boring moments (without movement) run *skipper.ps1*. It remove from video some frames without difference between it. 
 + If you want to join fragments to one big file:
   1. Run in powershell in the folder with videos:
-```
-(ls).name > input.list
-```
+  ```
+  (ls).name > input.list
+  ```
   2. Edit created *input.list* to make something like:
   ```
   file 'vid1.mp4'
