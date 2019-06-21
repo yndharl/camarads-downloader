@@ -6,7 +6,7 @@ Tool for downloading free videos from [camarads](https://camarads.com)
 Requirements
 ------------
 + python 3
-+ python libs: *flask*, *webbrowser*
++ python libs: *flask*, *requests*
 + add *python.exe* to *PATH*
 + optional ffmpeg
 

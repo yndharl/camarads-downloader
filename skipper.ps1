@@ -1,5 +1,4 @@
-$foldername = 'camarads'
-(Get-Date).ToString() > when.txt
+$foldername = 'C:\Users\user\Desktop\camarads'
 'starting converting'
 $arr = (ls $foldername -r).fullname | Select-String -Pattern '!.*\.mp4'
 $total = $arr.Length
@@ -21,4 +20,3 @@ foreach($in in $arr)
         break
     }
 } 
-(Get-Date).ToString() >> when.txt
