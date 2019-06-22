@@ -16,7 +16,7 @@ Usage
 1. Run *serv.py*, it opens the cmd window and the web page.
 2. Select screenshots from cams you need.
 3. Click *"Start downloading"* from the top, it opens the new cmd window and as many VLC windows as cams had been chosen.
-4. Close the  python window and the web page from paragraph 1.
+4. Close the web page from paragraph 1.
 5. To stop downloading press *Ctrl+C* in python.
 
 Settings
