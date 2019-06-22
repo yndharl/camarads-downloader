@@ -40,8 +40,8 @@ def lets_go():
 print("************************************")
 print("**Press Ctrl+С to stop downloading**")
 print("************************************")
-print('Video length = '+str(file_len))
-print('Night mode = '+str(night_mode))
+print('Video length = ' + str(file_len))
+print('Night mode = ' + str(night_mode))
 print("************************************")
 if night_mode:
     print(offTime.strftime('%H:%M:%S'))
