@@ -1,10 +1,10 @@
 import requests, re, os, time, sys, subprocess, datetime, json
 
 vlc_path = 'C:\\Software\\VideoLAN\\VLC\\vlc.exe'
-video_folder = 'C:\\Users\\user\\Desktop\\camarads'
+video_folder = 'camarads'
 file_len = 5 #minutes, approximately
 
-night_mode = True
+night_mode = False
 offTime = datetime.time(2,0,0) # (3:00 AM) time when downloading stop
 
 printCams = False

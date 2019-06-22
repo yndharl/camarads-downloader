@@ -1,4 +1,4 @@
-$foldername = 'C:\Users\user\Desktop\camarads'
+$foldername = 'camarads'
 'starting converting'
 $arr = (ls $foldername -r).fullname | Select-String -Pattern '!.*\.mp4'
 $total = $arr.Length
