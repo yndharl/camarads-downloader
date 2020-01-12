@@ -41,7 +41,8 @@ def getPics():
         tmp1 = {} # every cam
         tmp1['name'] = pair['name']
         tmp2 = []
-        for openRoomIndex in [i for i in pair['rooms'] if int(i) not in pair['locked_rooms']]:
+        print(pair.get('locked_rooms','qwe'+pair['name']))
+        for openRoomIndex in [i for i in pair['rooms'] if int(i) not in pair.get('locked_rooms',[])]:
             tmp2.append({'title': pair['rooms'][openRoomIndex],
                         'stream': pair['stream'][openRoomIndex],
                         'preview': 'https://www.camarads.com/reallifecam-free-voyeur-house/%s/%s.jpg'%(pathPart, pair['stream'][openRoomIndex])})
